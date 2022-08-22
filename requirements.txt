@@ -3,6 +3,6 @@ scikit-learn
 sentence-transformers
 pymorphy2
 beautifulsoup4
-selenium
+selenium==4.4.0
 transformers
 chromedriver-binary
