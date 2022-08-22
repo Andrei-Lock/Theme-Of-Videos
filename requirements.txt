@@ -1,0 +1,8 @@
+webdriver-manager
+scikit-learn
+sentence-transformers
+pymorphy2
+beautifulsoup4
+selenium
+transformers
+chromedriver-binary
