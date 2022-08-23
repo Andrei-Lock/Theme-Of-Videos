@@ -106,13 +106,9 @@ if __name__ == "__main__":
             )[0]
 
         choose = scores[-1][:-1]
+        
+        ans = pd.DataFrame({'theme accuracy': choose})
+        ans.index = df['title']
+        ans.index.name = "video name"
 
-        ans = 0
-
-        for i in choose:
-            if i > 0.8:
-                ans += 1
-
-        ans = ans / len(choose) * 100
-
-        print_predictions(str(ans) + "% соответствуют темам: " + theme)
+        print_predictions(ans)
