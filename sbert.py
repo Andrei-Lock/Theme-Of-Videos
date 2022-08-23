@@ -109,6 +109,5 @@ if __name__ == "__main__":
         
         ans = pd.DataFrame({'theme accuracy': choose})
         ans.index = df['title']
-        ans.index.name = "video name"
 
         print_predictions(ans)
