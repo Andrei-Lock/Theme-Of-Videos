@@ -7,4 +7,4 @@ Before running repositorie please visit https://chromedriver.chromium.org and ma
 If you still have questions, please write to me.
 
 # Demo video
-https://user-images.githubusercontent.com/99205875/186217725-abf00cf3-393e-4ba9-92ed-147ae542198d.mp4
+https://user-images.githubusercontent.com/99205875/186217892-6d156ded-750f-4ea5-820f-465c30008618.mp4
