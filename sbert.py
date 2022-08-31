@@ -50,10 +50,7 @@ if __name__ == "__main__":
     result = st.button('Распознать соответствие рекомендаций темам видео')
 
     if result:
-        options = selenium.webdriver.ChromeOptions()
-        options.add_argument('--headless')
-        options.add_argument('--no-sandbox')
-        driver = selenium.webdriver.Chrome(chrome_options=options)
+        driver = selenium.webdriver.Chrome(executable_path='/app/theme-of-videos/chromedriver.exe')
         driver.get(URL)
         time.sleep(3)
         html = driver.page_source
