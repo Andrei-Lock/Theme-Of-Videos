@@ -50,7 +50,7 @@ if __name__ == "__main__":
     result = st.button('Распознать соответствие рекомендаций темам видео')
 
     if result:
-        driver = selenium.webdriver.Chrome(executable_path='/app/theme-of-videos/chromedriver.exe')
+        driver = selenium.webdriver.Chrome(executable_path='/app/theme-of-videos/chromedriver')
         driver.get(URL)
         time.sleep(3)
         html = driver.page_source
